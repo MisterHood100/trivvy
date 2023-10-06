@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/MisterHood100/trivvy.git",
   "name": "trivvy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/MisterHood100/trivvy.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
