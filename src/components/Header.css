@@ -1,0 +1,58 @@
+.header {
+    border-top: 2px rgba(0, 0, 0, 0.5) solid;
+    border-bottom: 2px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 1px;
+    background-color: #483d8b;
+}
+
+.header a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.fa-house {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 25px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.fa-house:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.headerTitle {
+    margin-top: -50px;
+    margin-bottom: 10px;
+    font-family: "Luckiest Guy";
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+    
+    .headerTitle {
+        margin-top: -25px;
+        margin-bottom: 10px;
+        font-family: "Luckiest Guy";
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    .fa-house {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 25px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+}

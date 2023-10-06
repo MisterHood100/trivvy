@@ -1,0 +1,13 @@
+.footer {
+    padding: 20px;
+    margin-top: 250px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: #483d8b;
+    text-align: center;
+}
+
+.tag {
+    font-family: "Luckiest Guy";
+}
